@@ -15,4 +15,8 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(addCar,1)
         }
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+    }
 }
