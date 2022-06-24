@@ -8,6 +8,7 @@ object DogsDbContract {
     object CarEntry : BaseColumns {
         const val TABLE_NAME = "cars"
         const val COLUMN_NAME = "name"
+        const val COLUMN_ID = _ID
         const val COLUMN_DOM = "type"
         const val COLUMN_MANUFACTURE = "manufacture"
 
